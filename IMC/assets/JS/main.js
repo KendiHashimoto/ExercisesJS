@@ -49,7 +49,7 @@ function criaParagrafo () {
     const p = document.createElement('p');
     return p;
 }
-
+// Definir se o resultado é válido
 function setResultado (msg, isValid) {
     const resultado = document.querySelector('#resultado');
     resultado.innerHTML = '';
