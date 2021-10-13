@@ -1,5 +1,10 @@
 # 🔰 Cálculo de IMC
 ## 👉 Link : <a href="https://upbeat-torvalds-c03f77.netlify.app">IMC</a>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/71889483/137205671-cd2bea22-1a20-47f4-8874-adb76dee0318.png">
+</div>
+
 ## Minisite que faz um cálculo de IMC e mostra o status do usuário conforme a tabela abaixo
 
 <p align="center">
