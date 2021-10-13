@@ -1,6 +1,6 @@
 # 🔰 Cálculo de IMC
 ## 👉 Link : <a href="https://upbeat-torvalds-c03f77.netlify.app">IMC</a>
-## Minisite que faz um cálculo de IMC e mostra o status da pessoa conforme a tabela abaixo
+## Minisite que faz um cálculo de IMC e mostra o status do usuário conforme a tabela abaixo
 
 <p align="center">
   <img src="https://www.ricardogozzano.com.br/wp-content/uploads/2020/03/tabela_imc.png" width="500px">
