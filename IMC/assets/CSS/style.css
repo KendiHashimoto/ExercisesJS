@@ -24,8 +24,13 @@ h3 {
     display: flex;
 }
 
+li {
+    text-decoration: none;
+}
+
 footer {
     text-align: center;
+    color: #fff;
 }
 
 .container {
@@ -78,4 +83,14 @@ form button:hover {
 
 form button:active {
     background: var(--primary-color-light);
+}
+
+.paragrafo-resultado, .bad {
+    background: rgb(86, 202, 144);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.bad {
+    background: rgb(211, 99, 99);
 }
