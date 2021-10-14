@@ -20,7 +20,13 @@ body {
     line-height: 1.5em;
 }
 
+h1 {
+    text-align: center;
+}
+
 .container {
+    display: flex;
+    flex-direction: column;
     max-width: 640px;
     margin: 50px auto;
     background: #fff;
@@ -29,39 +35,18 @@ body {
     box-shadow: 10px 10px 20px rgba(37, 2, 112, 0.39);
 }
 
-form input, form label, form button {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
+#msg {
+    text-align: center;
+    padding: 20px;
 }
 
-form input {
-    font-size: 24px;
-    height: 50px;
-    padding: 0 20px;
+img {
+    width: 300px;
+    height: 300px;
+    margin: auto 150px;
+    border-radius: 50%;
 }
 
-form input:focus {
-    outline: 1px solid var(--primary-color) ;
-}
-
-form button {
-    border: none;
-    background: var(--primary-color);
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 10px;
-    margin-top: 30px; 
-    box-shadow: 0px 10px 20px rgba(43, 11, 117, 0.39);
-}
-
-form button:hover {
-    background: var(--primary-color-dark);
-}
-
-form button:active {
-    background: var(--primary-color-light);
+footer {
+    text-align: center;
 }
