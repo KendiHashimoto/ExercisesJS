@@ -22,6 +22,7 @@ body {
 
 h1 {
     text-align: center;
+    padding: 20px;
 }
 
 .container {
@@ -32,12 +33,7 @@ h1 {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px rgba(37, 2, 112, 0.39);
-}
-
-#msg {
-    text-align: center;
-    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(230, 225, 198, 0.39);
 }
 
 img {
