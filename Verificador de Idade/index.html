@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+
+<body>
+    <h1>VERIFICADOR DE IDADE</h1>
+    <section class="container">
+        <div>
+            <h3>Ano de nascimento : <input type="number" name="anoNascimmento" id="anoNascimento" min="0"></h3>
+        </div>
+
+        <div>
+            <p>
+                <strong>Sexo : </strong>
+                <input type="radio" name="radsex" id="masculino" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radsex" id="feminino">
+                <label for="feminino">Feminino</label>
+            </p>
+        </div>
+
+        <div>
+            <input type="button" value="VERIFICAR" onclick=verificar()>
+        </div>
+
+        <div id="resultado">
+            <p>Preencha os dados para ver o resultado.</p>
+            <img id="foto">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Hashimoto</p>
+    </footer>
+    <script src="./assets/JS/main.js"></script>
+</body>
+
+</html>
