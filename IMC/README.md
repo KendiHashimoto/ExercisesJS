@@ -1,4 +1,4 @@
-# 🔰 Cálculo de IMC
+# 🔰 Cálculo de IMC (índice de massa corporal)
 ## 👉 Link : <a href="https://upbeat-torvalds-c03f77.netlify.app">IMC</a>
 
 <div align="center">
