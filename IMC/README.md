@@ -11,7 +11,7 @@
   <img src="https://www.ricardogozzano.com.br/wp-content/uploads/2020/03/tabela_imc.png" width="500px">
 </p>
 
-### 🛠 Tecnologias utilizadas :
+# 🛠 Tecnologias utilizadas :
 
 <div style="display: inline_block">
   <img align="center" alt="Hashimoto-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
