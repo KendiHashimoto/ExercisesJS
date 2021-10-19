@@ -1,5 +1,5 @@
 # 🔰 Verificador de idade
-## O usuário vai inserir a data de nascimento e o seu sexo e vai retornar a sua idade atual
+## O usuário vai inserir a data de nascimento,sexo e vai retornar a sua idade atual e seu sexo
 <div align="center">
 <img src="https://user-images.githubusercontent.com/71889483/137917864-c40cdf6b-ab4e-4279-8cc3-5c1fec751a23.png">
 </div>
