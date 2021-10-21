@@ -3,5 +3,6 @@
 <h3> ✔️ Verificador de idade
 <h3> ✔️ Datas e horário
 <h3> ✔️ Cálculo de IMC
+<h3>     Tabuada
 <h3> ✔️ Timer
 </div>
