@@ -1,6 +1,6 @@
 <div style="display: inline_block" align="center">
 <h1> 🔰 Exercício com Switch/Case
-<h2> Exercíco simples que mostra o dia da semana, o dia do mês, o nome do mês,ano,horário atual. </h2>
+<h2> Exercíco simples que mostra o dia da semana, o dia do mês, o nome do mês,ano,horário atual do usuario.</h2>
   
 <img src="https://user-images.githubusercontent.com/71889483/137492914-61b69562-c1ef-4f4e-8e7c-316f0666ead7.png">
 
