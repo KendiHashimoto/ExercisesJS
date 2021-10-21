@@ -1,7 +1,7 @@
 function tabuada() {
 
     const num = document.querySelector('#inputTabuada');
-    const tab = document.querySelector('.tabuada');
+    const tab = document.querySelector('#lugarTabuada');
 
     if (num.value.length == 0) {
         window.alert('Digite um número e tente novamente.'); 
@@ -10,14 +10,12 @@ function tabuada() {
         let contador = 1;
         tab.innerHTML = '';
 
-    repetirTabuada = () => {
-        while (c < 11) {
+        while (contador < 11) {
             let item = document.createElement('option');
             item.text = `${numero} x ${contador} = ${numero * contador}`;
             item.value = `tab${contador}`;
             tab.appendChild(item);
             contador++;
-            }         
-        }
+        }         
     }   
 }
