@@ -25,15 +25,20 @@ h1 {
     color: white;
 }
 
+footer {
+    text-align: center;
+    color: white;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 640px;
+    max-width: 600px;
     margin: 50px auto;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px rgba(37, 2, 112, 0.39);
+    box-shadow: 10px 10px 20px rgba(59, 57, 59, 0.39);
 }
