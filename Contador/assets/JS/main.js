@@ -1,37 +1,30 @@
-contador = () => {
-    const i = document.querySelector('#inputInicio');
-    const f = document.querySelector('#inputFim');
-    const p = document.querySelector('#inputPasso');
+function contador () {
+    let inicio = document.querySelector('#inputInicio');
+    let fim = document.querySelector('#inputFim');
+    let passo = document.querySelector('#inputPasso');
     const resultado = document.querySelector('#resultado');
 
-    contagem = () => {
-        if (i.value.length == 0 || f.value.length == 0 || p.value.length == 0) {
-            resultado.innerHTML = ('Preencha os campos acima.');
+        if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+            window.alert('Preencha os campos.');
+
         } else {
-            resultado.innerHTML = ('Contando..</br>');
-            let inicio = Number(i.value);
-            let fim = Number(f.value);
-            let passo = Number(p.value);
-        }
-
-        if (passo = 0) {
-            resultado.innerHTML = ('Passo inválido,considerando passo 1.')
-            passo = 1
-        }
-
-        if (i < f) {
-            let contador = 1
-            while (i < f) {
-                resultado.innerHTML += (`${c}`);
-                contador++;
+            resultado.innerHTML = ('Contando: </br>');
+            let i = Number(inicio.value);
+            let f = Number(fim.value);
+            let p = Number(passo.value);
+            if (passo = 0) {
+                window.alert('Passo inválido,considerando PASSO 1.')
+                passo = 1
             }
-            
-        } else {
-            while (i > f) {
-                resultado.innerHTML += (`${c}`);
-                contador++;
+            if (i < f) {
+                for (let c = i; c <= f ; c += p) {
+                    resultado.innerHTML += (`${c} , `)
+            } 
+
+            } else {
+                for ( let c = i ; c >= f ; c -= p) {
+                    resultado.innerHTML += (`${c} , `)
             }
         }
     }
-    contagem();
 }
