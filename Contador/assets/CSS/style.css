@@ -47,11 +47,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;]
 }
 
 .botao-contar {
-    background: #301561;
     background-image: -webkit-linear-gradient(top, #301561, #8c54f5);
     background-image: -moz-linear-gradient(top, #301561, #8c54f5);
     background-image: -ms-linear-gradient(top, #301561, #8c54f5);
