@@ -5,37 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Analisador de números</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
 </head>
 
 <body>
 
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
     <section class="container">
-        <h1>Lorem ipsum dolor, sit amet</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, unde rerum. Saepe dignissimos illo a
-            voluptate, quam sapiente! Ratione tenetur vero tempora corrupti placeat. Rerum delectus rem velit officiis
-            nesciunt.
-        </p>
+        <div>
+            <p>
+                <span>Número (entre 1 e 100) : </span>
+                <input type="number" name="numbers" id="inputNumber">
+                <input type="button" class="botao-adicionar" value="ADICIONAR" onclick="adicionar()">
+            </p>
+        </div>
 
-        <form action="">
-            <label for="input-teste-1">Label teste #1</label>
-            <input type="text" id="input-teste-1">
+        <div class="numbers-list">
+            <p>Adicione números acima</p>
+            <input type="button" class="botao-finalizar" value="FINALIZAR" onclick="adicionar()">
+        </div>
 
-            <label for="input-teste-2">Label teste #2</label>
-            <input type="password" id="input-teste-2">
-
-            <label for="input-teste-3">Label teste #3</label>
-            <input type="email" id="input-teste-3">
-
-            <label for="input-teste-4">Label teste #4</label>
-            <input type="number" id="input-teste-4">
-
-            <button>Enviar</button>
-        </form>
+        <div class="resultado">
+            <!-- Aqui vai o resultado da análise -->
+        </div>
     </section>
 
+
+    <footer>
+        <p>&copy; Hashimoto</p>
+    </footer>
     <script src="./assets/JS/main.js"></script>
 </body>
 

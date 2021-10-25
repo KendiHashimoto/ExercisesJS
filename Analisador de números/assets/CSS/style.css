@@ -20,7 +20,22 @@ body {
     line-height: 1.5em;
 }
 
+h1 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     max-width: 640px;
     margin: 50px auto;
     background: #fff;
@@ -29,39 +44,33 @@ body {
     box-shadow: 10px 10px 20px rgba(37, 2, 112, 0.39);
 }
 
-form input, form label, form button {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-form input {
-    font-size: 24px;
-    height: 50px;
-    padding: 0 20px;
-}
-
-form input:focus {
-    outline: 1px solid var(--primary-color) ;
-}
-
-form button {
-    border: none;
-    background: var(--primary-color);
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    height: 50px;
-    cursor: pointer;
+.botao-adicionar, .botao-finalizar {
+    box-shadow: 2px 2px 20px -4px rgba(37, 2, 112, 0.39);
+    background: linear-gradient(to bottom, #7e45c7 5%, #5a2cbd 100%);
+    background-color: #7e45c7;
     border-radius: 10px;
-    margin-top: 30px; 
-    box-shadow: 0px 10px 20px rgba(43, 11, 117, 0.39);
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    padding: 5px 8px;
+    text-decoration: none;
+    text-shadow: 6px 2px 14px #412866;
 }
 
-form button:hover {
-    background: var(--primary-color-dark);
+.botao-adicionar, .botao-finalizar:hover {
+	background:linear-gradient(to bottom, #5a2cbd 5%, #7e45c7 100%);
+	background-color:#5a2cbd;
+}
+.botao-adicionar, .botao-finalizar:active {
+	position:relative;
+	top:1px;
 }
 
-form button:active {
-    background: var(--primary-color-light);
+.numbers-list {
+    padding-top: 40px;
+}
+
+span {
+    font-size: 27px;
 }
