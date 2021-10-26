@@ -44,6 +44,10 @@ footer {
     box-shadow: 10px 10px 20px rgba(37, 2, 112, 0.39);
 }
 
+.numbers-list > p {
+    margin: 0px;
+}
+
 .botao-adicionar, .botao-finalizar {
     box-shadow: 2px 2px 20px -4px rgba(37, 2, 112, 0.39);
     background: linear-gradient(to bottom, #7e45c7 5%, #5a2cbd 100%);
@@ -68,7 +72,15 @@ footer {
 }
 
 .numbers-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding-top: 40px;
+}
+
+.resultado-lista {
+    padding: 20px;
 }
 
 span {

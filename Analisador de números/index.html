@@ -15,25 +15,25 @@
         <h1>Analisador de números</h1>
     </header>
     <section class="container">
+
+        <!-- Input para adicionar os números -->
         <div>
-            <p>
-                <span>Número (entre 1 e 100) : </span>
-                <input type="number" name="numbers" id="inputNumber">
-                <input type="button" class="botao-adicionar" value="ADICIONAR" onclick="adicionar()">
-            </p>
+            <span>Número (entre 1 e 100) : </span>
+            <input type="number" name="numbers" id="inputNumber">
+            <input type="button" class="botao-adicionar" value="ADICIONAR" onclick="adicionaNumero()">
         </div>
 
-        <div class="numbers-list">
-            <p>Adicione números acima</p>
-            <p id="NumbersLista"></p><br>
-            <input type="button" class="botao-finalizar" value="FINALIZAR" onclick="finalizar()">
+        <!-- Exibe a lista de valores -->
+        <div class="numbers-list"> 
+            <p id="numbersLista"></p><br>
+            <input type="button" class="botao-finalizar" value="FINALIZAR" onclick="finalizaAnalise()">
         </div>
 
-        <div id="resultado" class="res">
-            <!-- Aqui vai o resultado da análise -->
+        <!-- Exibe resultado da análise-->
+        <div id="resultado" class="resultado-lista">
+            Resultado :
         </div>
     </section>
-
 
     <footer>
         <p>&copy; Hashimoto</p>
