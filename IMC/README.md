@@ -1,6 +1,5 @@
 <div style="display: inline_block" align="center">
 <h1> 🔰 Cálculo de IMC (índice de massa corporal)</h1>
-  <h2> 👉 Link : <a href="https://upbeat-torvalds-c03f77.netlify.app">IMC</a></h2>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/71889483/137205671-cd2bea22-1a20-47f4-8874-adb76dee0318.png">
