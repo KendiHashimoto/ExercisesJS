@@ -1,7 +1,6 @@
 <div align="center">
 <h1> ⏰ Timer
 <h2> 🌀 Contador de tempo básico com pausa e zeramento do tempo
-<h2> 📎 Link : <a href="https://flamboyante-pare-71890f.netlify.app">Timer</a> </h2>
   
   <h2>Zerado : </h2>
 <img src="https://user-images.githubusercontent.com/71889483/138099394-5271d965-478c-4552-bd4b-66b8ccda242a.png">
